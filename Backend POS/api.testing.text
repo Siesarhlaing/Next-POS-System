@@ -1,0 +1,31 @@
+API Call Notes
+==============
+
+GetAll 
+
+method:GET 
+http://localhost:8080/api/item?page=1&&length=10 // Default Sort with id Desc
+
+//cutom
+http://localhost:8080/api/item?page=1&&length=10&&sortBy=name&&sortOrder=asc
+
+
+GetById 
+
+method:GET 
+http://localhost:8080/api/item?id=1
+
+
+Save or Update 
+
+method:POST
+http://localhost:8080/api/item
+
+
+SoftDelete
+
+method:DELETE
+http://localhost:8080/api/item/delete?id=1
+
+
+
